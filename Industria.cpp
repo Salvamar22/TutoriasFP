@@ -1,6 +1,6 @@
 #include<iostream>
-#include<math.h>
-#include<stdlib.h>
+#include <algorithm>
+#include <cstddef>
 #include<string.h>
 #include<conio.h> //Declaracion de librerias
 
