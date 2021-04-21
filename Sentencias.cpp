@@ -1,6 +1,8 @@
-//SENTENCIAS CONDICIONALES
+//SENTENCIAS CONDICIONALES & BUCLES
+
 #include "iostream"
 #include "math.h"
+#include "conio.h"
 using namespace std;
 
 int main()
@@ -100,7 +102,7 @@ default:
     break;
 }*/
 //SENTENCIA SWITCH VOCALES
-char vocal;
+/*char vocal;
 cout<<"Ingrese su vocal"<<endl;
 cin>>vocal;
 //queremos saber si la vocal es minuscula o no
@@ -125,10 +127,7 @@ switch (vocal)
     default:
     cout<<"No es una vocal minuscula."<<endl;
     break;
-}
-
-
-
+}*/
 return 0;
     
 

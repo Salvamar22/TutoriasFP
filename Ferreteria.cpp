@@ -5,49 +5,6 @@
 #include<vector> //Declaracion de librerias
 
 using namespace std;
-
-//MENU
-void menu()
-{
-    int opcionMenu;
-   	//declaracion de variables
-    do
-    {
-    cout<<"\n     BIENVENIDO A FERRETERIA LA PALMA\n"; //Menu principal para elegir local/tienda
-	cout<<"\n Seleccione el local de ferreteria en la que se encuentra: \n";
-	cout<<"\n 1. Ferreteria La Palma San Salvador\n";
-	cout<<"\n 2. Ferreteria La Palma Soyapango\n";
-	cout<<"\n 3. Ferreteria La Palma San Miguel\n";
-	cout<<"\n 4. Ferreteria La Palma Santa tecla\n";
-	cout<<"\n 5. Salir del programa\n";
-	cin>>opcionMenu;
-    switch (opcionMenu)
-    {
-    case 1:
-        cout<<"\n     BIENVENIDO A FERRETERIA LA PALMA SAN SALVADOR\n"; //Submenu opciones de la tiendas
-			submenu();
-        break;
-        case 2:
-        cout<<"\n     BIENVENIDO A FERRETERIA LA PALMA SOYAPANGO\n"; //Submenu opciones de la tiendas
-			submenu();
-        break;
-        case 3:
-        cout<<"\n     BIENVENIDO A FERRETERIA LA PALMA SAN MIGUEL\n"; //Submenu opciones de la tiendas
-			submenu();
-        break;
-        case 4:
-        cout<<"\n     BIENVENIDO A FERRETERIA LA PALMA SANTA TECLA\n"; //Submenu opciones de la tiendas
-			submenu();
-        break;
-    
-    default:
-        break;
-    }
-
-    } while (opcionMenu != 5 );
-    
-
-}
 //SUBMENU
 void submenu(){
     int opcionSubmenu;
@@ -169,6 +126,50 @@ void submenu(){
         break;
     }
 }
+
+//MENU
+void menu()
+{
+    int opcionMenu;
+   	//declaracion de variables
+    do
+    {
+    cout<<"\n     BIENVENIDO A FERRETERIA LA PALMA\n"; //Menu principal para elegir local/tienda
+	cout<<"\n Seleccione el local de ferreteria en la que se encuentra: \n";
+	cout<<"\n 1. Ferreteria La Palma San Salvador\n";
+	cout<<"\n 2. Ferreteria La Palma Soyapango\n";
+	cout<<"\n 3. Ferreteria La Palma San Miguel\n";
+	cout<<"\n 4. Ferreteria La Palma Santa tecla\n";
+	cout<<"\n 5. Salir del programa\n";
+	cin>>opcionMenu;
+    switch (opcionMenu)
+    {
+    case 1:
+        cout<<"\n     BIENVENIDO A FERRETERIA LA PALMA SAN SALVADOR\n"; //Submenu opciones de la tiendas
+			submenu();
+        break;
+        case 2:
+        cout<<"\n     BIENVENIDO A FERRETERIA LA PALMA SOYAPANGO\n"; //Submenu opciones de la tiendas
+			submenu();
+        break;
+        case 3:
+        cout<<"\n     BIENVENIDO A FERRETERIA LA PALMA SAN MIGUEL\n"; //Submenu opciones de la tiendas
+			submenu();
+        break;
+        case 4:
+        cout<<"\n     BIENVENIDO A FERRETERIA LA PALMA SANTA TECLA\n"; //Submenu opciones de la tiendas
+			submenu();
+        break;
+    
+    default:
+        break;
+    }
+
+    } while (opcionMenu != 5 );
+    
+
+}
+
 
 int main()
 {
